@@ -1,8 +1,13 @@
-body{
-    font-family: helvetica,Arial,sans-serif;
+body{    
     margin: 0em;
 }
-h1{
-    font-style: italic;
-    color: #373fff;
+
+.cover{
+    height:400px;
+    background-image: url(https://cdn.glitch.com/b9a71677-803b-45dd-994c-3de96a97c490%2Frsz_karl-fredrickson-tyizeciz_60-unsplash.jpg?v=1573589866321);
+    color: white;
+    background-size: cover;
+    background-position: center;    
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
 }
