@@ -1,7 +1,11 @@
 body{    
     margin: 0em;
+    font-family: 'Noto Sans', sans-serif;
 }
+h1,h2,h3,h4,h5{
+    font-family: 'Fjalla One', sans-serif;
 
+}
 .cover{
     height:400px;
     background-image: url(https://cdn.glitch.com/b9a71677-803b-45dd-994c-3de96a97c490%2Frsz_karl-fredrickson-tyizeciz_60-unsplash.jpg?v=1573589866321);
@@ -11,8 +15,17 @@ body{
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: darken;
 }
-
+.cover-small{
+    height:200px;
+    background-blend-mode: normal;
+}
 .card{
     border: 0 !important;
     box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+}
+.card-title{
+    min-height: 3rem;
+}
+.card-text{
+    min-height: 10rem;    
 }
