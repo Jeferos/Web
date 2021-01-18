@@ -21,18 +21,21 @@
         <a class="navbar-brand" href="#">LOGO</a>
         <ul class="nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio </a>
+              <a class="nav-link" href="/">Inicio </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Ubicación</a>
+              <a class="nav-link" href="#mapa">Ubicación</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#stripe">Menú</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Acerca de</a>
+              <a class="nav-link" href="acercade.html">Acerca de</a>
             </li>
           </ul>
     </nav>
 
-    <div class="cover d-flex justify-content-center align-items-center flex-column"">
+    <div class="cover d-flex justify-content-center align-items-center flex-column">
       <h1>
         América Coffe 
       </h1>
@@ -77,7 +80,7 @@
         </div>
         <div class="card-body">
           <h5 class="card-title">Pasión por el café</h5>
-          <p class="card-text">Nos apasiona el café por lo qie siempre buscamos servirte café de alta calidad.</p>          
+          <p class="card-text">Nos apasiona el café por lo que siempre buscamos servirte café de alta calidad.</p>          
         </div>      
       </div>
     </div>
@@ -86,6 +89,21 @@
   </section>
   <section>
     <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-5">
+          <img src="https://cdn.glitch.com/b9a71677-803b-45dd-994c-3de96a97c490%2FCoffeeDoddle.svg?v=1573492762453" alt="Un apersona ilustrada abrazando una taza de café">
+        </div>
+        <div class="col-12 col-sm-6">
+          <h3>
+            ¡Inicia tu dia con una buena taza de café!
+          </h3>
+          <p>
+            Ordena tu taza de café a domicilio
+          </p>
+          <a href="#mapa">Ir al mapa</a>
+
+        </div>
+      </div>
       <form action="">
         <label for="email">Correo Electrónico</label>
         <div class="d-flex">
@@ -98,6 +116,69 @@
         </button>
       </div>
       </form>
+    </div>
+  </section>
+  <section>
+    <!-- TIRA DE PRODUCTOS -->
+    <div class="container mt-5 mb-5" id="stripe">
+      <div class="product-stripe">
+        <div class="stripe-container">
+          <div class="card">
+            <div title="Taza de expresso" class="cover cover-small" style="background-image: url(https://cdn.glitch.com/b9a71677-803b-45dd-994c-3de96a97c490%2Fpablo-merchan-montes-_Tw4vCs9C-8-unsplash.jpg?v=1573587674632);">
+    
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Espresso</h5>
+              <span class="badge badge-info">$2USD</span>
+            </div>      
+          </div>
+
+          <div class="card">
+            <div title="Taza de Capuchino" class="cover cover-small" style="background-image: url(https://cdn.glitch.com/b9a71677-803b-45dd-994c-3de96a97c490%2Ftiard-schulz-PZ57Npp7iAw-unsplash.jpg?v=1573587674884);">
+    
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Capuchino</h5>
+              <span class="badge badge-info">$3USD</span>
+            </div>      
+          </div>
+
+          <div class="card">
+            <div title="Taza de Americano" class="cover cover-small" style="background-image: url(https://cdn.glitch.com/b9a71677-803b-45dd-994c-3de96a97c490%2Fallison-griffith-VCXk_bO97VQ-unsplash.jpg?v=1573587674892);">
+    
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Americano</h5>
+              <span class="badge badge-info">$5USD</span>
+            </div>      
+          </div>
+
+          <div class="card">
+            <div title="Taza de Latte" class="cover cover-small" style="background-image: url(https://cdn.glitch.com/b9a71677-803b-45dd-994c-3de96a97c490%2Fbilly-kwok-vfiA7rRtjWo-unsplash.jpg?v=1573587675246);">
+    
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Latte</h5>
+              <span class="badge badge-info">$1USD</span>
+            </div>      
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container mt-5 mb-5" id="mapa">
+      <h4>
+        Aquí nos vemos:
+      </h4>
+      <p>
+        Jr. Washington 1612, Cercado de Lima 15046
+      </p>
+      <div class="responsive-iframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.85873931947822!2d-77.03904413761803!3d-12.061413517531388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c933ccb6f50d%3A0xfb913fb5ba830cc3!2sEdificio%20Grogu!5e0!3m2!1ses-419!2spe!4v1611007334108!5m2!1ses-419!2spe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+      
     </div>
   </section>
 
